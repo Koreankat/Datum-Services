@@ -33,7 +33,7 @@ const Nav = () => {
           ></Line>
         </li>
         <li>
-          <NavLink to='/contact'>3. Contact Us</NavLink>
+          <NavLink to='/contact'>3. Our Team</NavLink>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
