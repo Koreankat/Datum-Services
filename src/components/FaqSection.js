@@ -96,7 +96,7 @@ const FaqSection = forwardRef((props, ref) => {
           <br></br>
           <div className='form-button'>
             <button type='submit' value='Submit'>
-              RAPPEL MOI
+              RAPPELEZ NOUS
             </button>
           </div>
         </form>
