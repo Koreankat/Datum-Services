@@ -1,12 +1,17 @@
 import React from "react"
 import { motion } from "framer-motion"
-
 import home1 from "../img/textile.png"
 import { About, Description, Hide, Image } from "../Style"
 import { titleAnim, fade, photoAnim } from "../animation"
+import { useEffect } from "react"
 import Wave from "./Wave"
 
-const AboutSection = () => {
+const AboutSection = ({ resultRef }) => {
+  const onSubmit = (e) => {
+    e.preventDefault()
+    resultRef.current.scrollIntoView({ behavior: "smooth" })
+  }
+
   return (
     <About>
       <Description>
@@ -25,7 +30,10 @@ const AboutSection = () => {
           a travers nos solutions fortement conçues qui vont améliorer votre
           boite et inciter le public à agir.
         </motion.p>
-        <motion.button variants={fade}>Contact Us</motion.button>
+
+        <motion.button variants={fade} onClick={onSubmit}>
+          Contact Us
+        </motion.button>
       </Description>
       <Image>
         <motion.img variants={photoAnim} src={home1} alt='person with camera' />

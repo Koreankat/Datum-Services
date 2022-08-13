@@ -71,6 +71,9 @@ const Services = styled.div`
     align-items: center;
     justify-content: center;
   }
+  img {
+    width: 350px;
+  }
   @media (max-width: 1300px) {
     justify-content: center;
     align-items: center;
@@ -84,7 +87,7 @@ const Services = styled.div`
       font-size: 30px;
     }
     img {
-      width: 100px;
+      width: 180px;
     }
   }
   @media (max-width: 550px) {

@@ -1,5 +1,5 @@
 import React from "react"
-
+import { useRef } from "react"
 import AboutSection from "../components/AboutSection"
 import FaqSection from "../components/FaqSection"
 import ServicesSection from "../components/ServicesSection"
@@ -11,19 +11,21 @@ import ScrollTop from "../components/ScrollTop"
 import PhilosophySection from "../components/PhilosophySection"
 
 const AboutUs = () => {
+  const resultRef = useRef(null)
   return (
     <motion.div
       variants={pageAnimation}
       initial='hidden'
       animate='show'
       exit='exit'
+      style={{ width: "100%" }}
     >
       <ScrollTop />
-      <AboutSection />
+      <AboutSection resultRef={resultRef} />
       <ServicesSection />
       <IntroSection />
       <PhilosophySection />
-      <FaqSection />
+      <FaqSection ref={resultRef} />
     </motion.div>
   )
 }

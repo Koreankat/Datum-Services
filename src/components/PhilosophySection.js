@@ -68,10 +68,11 @@ const Services = styled(motion.div)`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2rem 2rem;
+    width: 100%;
     text-align: center;
     p {
       width: 80%;
+      margin-bottom: 10px;
     }
     h2 {
       font-size: 30px;

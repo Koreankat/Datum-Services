@@ -34,9 +34,9 @@ const ServicesSection = () => {
           <Card>
             <div className='icon'>
               <img alt='icon' src={teamwork} />
-              <h3>Experts</h3>
+              <h3>Staff</h3>
             </div>
-            <p>Equipe d'experts fortement experimentés.</p>
+            <p>Des experts à votre disposition.</p>
           </Card>
           <Card>
             <div className='icon'>

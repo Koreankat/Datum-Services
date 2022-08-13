@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { NavLink, useLocation } from "react-router-dom"
 import { motion } from "framer-motion"
-import logo from "../img/Datum-logo.png"
+import logo from "../img/Ds.png"
 import "./styles.css"
 
 const Nav = () => {
@@ -12,7 +12,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <NavLink to='/'>
-          <img src={logo} id='logo' alt='logo'></img>
+          <img src={logo} id='logo' alt='logo' style={{ width: "150px" }}></img>
         </NavLink>
       </h1>
       <ul>
@@ -53,6 +53,7 @@ const StyledNav = styled.nav`
   align-items: center;
   margin: auto;
   padding: 1rem 10rem;
+  width: 100%;
   background: #282828;
   position: sticky;
   top: 0;
@@ -70,18 +71,12 @@ const StyledNav = styled.nav`
     padding-left: 10rem;
     position: relative;
   }
-  #logo {
-    font-size: 1.5rem;
-    font-family: "Lobster", cursive;
-    font-weight: lighter;
-  }
+
   @media (max-width: 1300px) {
     flex-direction: column;
+    position: static;
     padding: 2rem 1rem;
-    #logo {
-      display: inline-block;
-      margin: 2rem;
-    }
+
     ul {
       padding: 2rem;
       justify-content: space-around;

@@ -1,18 +1,17 @@
 import React, { useRef } from "react"
 import emailjs from "emailjs-com"
 import styled from "styled-components"
-
+import { BsInstagram } from "react-icons/bs"
 import { AnimateSharedLayout } from "framer-motion"
 import AOS from "aos"
 import { NotificationContainer, NotificationManager } from "react-notifications"
 import "react-notifications/lib/notifications.css"
-
 import { About } from "../Style"
-
 import { useScroll } from "../hooks/useScroll"
 import { scrollReveal } from "../animation"
+import { forwardRef } from "react"
 AOS.init()
-const FaqSection = () => {
+const FaqSection = forwardRef((props, ref) => {
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -45,7 +44,7 @@ const FaqSection = () => {
   }
 
   return (
-    <Faq>
+    <Faq ref={ref}>
       <h1>
         CONTACTEZ <span>NOUS</span>
       </h1>
@@ -103,12 +102,37 @@ const FaqSection = () => {
         </form>
       </div>
       <NotificationContainer />
+      <footer>
+        <div className='cooter'>
+          <h2>Ou contactez nous sur le:</h2>
+          <h2>
+            <a
+              href='tel:+212656290736'
+              style={{
+                fontSize: "24px",
+                color: "white",
+                textDecoration: "none",
+              }}
+            >
+              +212 656290736
+            </a>
+          </h2>
+          <div style={{ marginTop: "10px" }}>
+            Copyright © Datum Services . All Right Reserved
+          </div>
+        </div>
+      </footer>
     </Faq>
   )
-}
+})
 
 // Styles
 const Faq = styled.div`
+  footer {
+    padding-top: 20px;
+    background-color: #282828;
+    width: 100%;
+  }
   text-align: center;
   display: flex;
   justify-content: center;
@@ -121,6 +145,9 @@ const Faq = styled.div`
   h2 {
     font-weight: 200;
     font-size: 30px;
+  }
+  button {
+    margin-bottom: 10px;
   }
   input {
     font-family: sans-serif;
