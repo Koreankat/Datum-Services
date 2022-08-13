@@ -117,7 +117,7 @@ const FaqSection = forwardRef((props, ref) => {
               +212 656290736
             </a>
           </h2>
-          <div style={{ marginTop: "10px" }}>
+          <div style={{ marginTop: "10px", marginBottom: "10px" }}>
             Copyright © Datum Services . All Right Reserved
           </div>
         </div>

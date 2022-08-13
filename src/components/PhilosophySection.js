@@ -22,13 +22,10 @@ const PhilosophySection = () => {
         </h2>
         <p>
           Le moment présent est celui du changement et de la perturbation. C’est
-          la fin des anciennes certitudes et le début de nouvelles opportunités.
-          Mais si c’est maintenant, qu’est-ce qui vient après ? Nous pensons que
-          l’avenir est entre les mains des personnes qui vivent dans un monde
-          digital. Le monde digital donne du pouvoir aux gens. Ils décident de
-          ce qu’ils aiment, où ils s’engagent et ce qu’ils soutiennent. Ils sont
-          connectés et contrôlent la situation. Votre défi – et le nôtre – est
-          de le relever.
+          la fin des anciennes méthodes et le début de nouvelles opportunités.
+          Nous pensons que l’avenir est entre les mains des personnes qui vivent
+          dans un monde digital. êtes vous prêt ? <br />
+          Votre défi – et le nôtre – est de le relever.
         </p>
       </div>
 
@@ -80,7 +77,7 @@ const Services = styled(motion.div)`
   }
   @media (max-width: 550px) {
     p {
-      width: 80%;
+      width: 280px;
       font-size: 14px;
       text-align: left;
     }
