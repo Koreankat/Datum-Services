@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
 import logo from "../img/logo.png"
+import { Image } from "../Style"
 
 import { Intro } from "../Style"
 import { scrollReveal } from "../animation"
@@ -20,6 +21,7 @@ const IntroSection = () => {
         <h2>
           QUI SOMMES <span>NOUS</span>
         </h2>
+
         <img src={logo} alt='logo' />
       </div>
       <p>
