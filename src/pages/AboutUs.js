@@ -8,6 +8,7 @@ import IntroSection from "../components/IntroSection"
 import { motion } from "framer-motion"
 import { pageAnimation } from "../animation"
 import ScrollTop from "../components/ScrollTop"
+import Services from "../components/Services"
 import PhilosophySection from "../components/PhilosophySection"
 
 const AboutUs = () => {
@@ -22,6 +23,7 @@ const AboutUs = () => {
     >
       <ScrollTop />
       <AboutSection resultRef={resultRef} />
+      <Services />
       <ServicesSection />
       <IntroSection />
       <PhilosophySection />

@@ -50,7 +50,7 @@ const IntroSection = () => {
 }
 
 // Styles
-const Services = styled.div`
+const Services = styled(motion.div)`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,9 +75,7 @@ const Services = styled.div`
   div {
     text-align: center;
   }
-  img {
-    width: 350px;
-  }
+
   @media (max-width: 1300px) {
     justify-content: center;
     align-items: center;

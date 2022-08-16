@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { Link } from "react-router-dom"
 //Images
 import OrDuMonde from "../img/OrDuMonde.png"
+import waced1 from "../img/waced1.png"
 import vortex from "../img/vortex.png"
 import spacetraveling from "../img/SpaceTraveling.png"
 // animations
@@ -47,6 +48,13 @@ const OurWork = () => {
         <div className='line'></div>
         <Link to='/work/the-racer'>
           <img src={vortex} alt='vortex' />
+        </Link>
+      </Movie>
+      <Movie>
+        <h2>Waced</h2>
+        <div className='line'></div>
+        <Link to='/work/waced'>
+          <img src={waced1} alt='waced' />
         </Link>
       </Movie>
       <Movie>

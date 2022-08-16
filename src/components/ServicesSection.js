@@ -54,7 +54,7 @@ const ServicesSection = () => {
           </Card>
         </Cards>
       </Description>
-      <Image>
+      <Image className='Image'>
         <img alt='camera' src={home2} />
       </Image>
     </Services>
@@ -69,6 +69,14 @@ const Services = styled(About)`
   p {
     width: 70%;
     padding: 2rem 0 4rem 0;
+  }
+  .Image {
+    box-shadow: -2px -2px 10px 2px #008711;
+  }
+  @media (max-width: 550px) {
+    h2 {
+      font-size: 30px;
+    }
   }
 `
 
