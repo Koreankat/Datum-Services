@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
+import bg from "../img/bg-p1.png"
 import philosophie from "../img/test.png"
 
 import { Intro, Image } from "../Style"
@@ -21,11 +22,11 @@ const PhilosophySection = () => {
           NOTRE<span> PHILOSOPHIE</span>
         </h2>
         <p>
-          Le moment présent est celui du changement et de la perturbation. C’est
-          la fin des anciennes méthodes et le début de nouvelles opportunités.
-          Nous pensons que l’avenir est entre les mains des personnes qui vivent
-          dans un monde digital. êtes vous prêt ? <br />
-          Votre défi – et le nôtre – est de le relever.
+          Le moment présent est celui de l'invention et l'innovation. C’est la
+          fin des anciennes méthodes et le début de nouvelles démarches. Nous
+          pensons que l’avenir est entre les mains des personnes qui vivent dans
+          un monde digital. êtes vous prêt ? <br />
+          Relevons ensemble le défi !
         </p>
       </div>
 
@@ -48,9 +49,12 @@ const Services = styled(motion.div)`
   p {
     width: 90%;
     padding: 2rem;
-    background-color: #2f4f4f;
+    color: #f1f1f1;
     text-align: center;
-    border: 5px solid #2f3f3f;
+    background-image: url(${bg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #008711;
   }
   div {
     display: flex;

@@ -76,7 +76,7 @@ const Movie = styled.div`
   padding-bottom: 10rem;
   .line {
     height: 0.5rem;
-    background: #23d997;
+    background: #008711;
     margin-bottom: 3rem;
   }
   img {

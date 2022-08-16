@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+
 import { NavLink, useLocation } from "react-router-dom"
 import { motion } from "framer-motion"
 import logo from "../img/DS-Small-two.png"
@@ -12,7 +13,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <NavLink to='/'>
-          <img src={logo} id='logo' alt='logo' style={{ width: "150px" }}></img>
+          <img src={logo} id='logo' alt='logo' style={{ width: "125px" }}></img>
         </NavLink>
       </h1>
       <ul>
@@ -91,7 +92,7 @@ const StyledNav = styled.nav`
 const Line = styled(motion.div)`
   height: 0.3rem;
   width: 0%;
-  background: #23d997;
+  background: #008711;
   position: absolute;
   bottom: -80%;
   left: 60%;

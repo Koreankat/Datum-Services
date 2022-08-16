@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
 import logo from "../img/logo.png"
+import bg from "../img/bg-p1.png"
 import { Image } from "../Style"
 
 import { Intro } from "../Style"
@@ -19,10 +20,9 @@ const IntroSection = () => {
     >
       <div>
         <h2>
-          QUI SOMMES <span>NOUS</span>
+          QUI SOMMES
+          <span> NOUS</span>
         </h2>
-
-        <img src={logo} alt='logo' />
       </div>
       <p>
         Datum Services agit en tant qu’agence de developement ,communication et
@@ -54,7 +54,7 @@ const Services = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   padding: 5rem 10rem;
   color: white;
 
@@ -62,16 +62,18 @@ const Services = styled.div`
     padding-bottom: 5rem;
   }
   p {
-    width: 60%;
+    width: 90%;
     padding: 2rem;
-    background-color: #2f4f4f;
-    border: 5px solid #2f3f3f;
+    color: #f1f1f1;
+    line-height: 1.6;
+
+    background-image: url(${bg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #008711;
   }
   div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
   }
   img {
     width: 350px;
@@ -83,7 +85,7 @@ const Services = styled.div`
     padding: 2rem 2rem;
     text-align: center;
     p {
-      width: 80%;
+      width: 95%;
     }
     h2 {
       font-size: 30px;
