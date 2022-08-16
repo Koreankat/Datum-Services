@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
 import bg from "../img/bg-p1.png"
-import philosophie from "../img/test.png"
+import philosophie from "../img/Philosophie.png"
 
 import { Intro, Image } from "../Style"
 import { scrollReveal } from "../animation"
