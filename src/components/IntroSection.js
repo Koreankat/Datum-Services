@@ -43,7 +43,7 @@ const IntroSection = () => {
         traditionnelles avec des méthodes modernes pour fournir un service
         marketing intégré qui augmente la valeur de votre marque, établit votre
         domination et met en évidence votre présence dans tous les canaux
-        marketing, ce qui accélère votre accès à vos objectifs commerciaux.
+        marketing,ce qui accélère votre accès à vos objectifs commerciaux.
       </p>
     </Services>
   )
