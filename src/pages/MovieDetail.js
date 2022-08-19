@@ -102,6 +102,13 @@ const ImageDisplay = styled.div`
     height: 100vh;
     object-fit: cover;
   }
+  @media (max-width: 550px) {
+    min-height: auto;
+    img {
+      object-fit: fill;
+      height: auto;
+    }
+  }
 `
 
 //Award Component
