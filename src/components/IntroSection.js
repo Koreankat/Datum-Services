@@ -25,25 +25,25 @@ const IntroSection = () => {
         </h2>
       </div>
       <p>
-        Datum Services agit en tant qu’agence de developement ,communication et
-        de marketing numériques, dont l’activité principale est l'intégration et
-        préparation de vos projets pour les plateformes digitales grâce à des
-        services intégrés de publicité électronique, concevant des sites Web,
-        des programmes et des publicités sur des sites de réseaux sociaux tout
-        en gérant la publicité électronique avec le plus grand
-        professionnalisme. De A à Z en commençant par l’étude du marché et des
-        designs concurrents, en concevant les logos et l’identité visuelle et en
-        terminant par la création de plans marketing stratégiques. Nous sommes à
-        votre écoute, pour répondre à tous vos besoins, quel que soit votre
-        secteur d’activité. En étudiant attentivement les exigences de vos
+        Datum Services agit en tant qu’agence de developement Informatique,
+        communication et de marketing numériques, dont l’activité principale est
+        l'intégration et préparation de vos projets grâce à nos services
+        intégrés de publicité, developement web, marketing digitale, graphic
+        design...tout en gérant votre business avec le plus grand
+        professionnalisme. De A à Z en commençant par l’étude du marché et de
+        produits concurrents, en concevant les logos et l’identité visuelle tout
+        en terminant par la création de plans marketing stratégiques. Nous
+        sommes à votre écoute, pour répondre à tous vos besoins, quel que soit
+        votre secteur d’activité. En étudiant attentivement les exigences de vos
         projets et vos objectifs, nous vous accompagnons sur la voie du succès
-        avec les conseils les plus importants, les orientations et les
-        meilleures idées publicitaires innovantes pour vous aider à exceller et
-        à réussir vos projets. Nous combinons des méthodes de marketing
-        traditionnelles avec des méthodes modernes pour fournir un service
-        marketing intégré qui augmente la valeur de votre marque, établit votre
-        domination et met en évidence votre présence dans tous les canaux
-        marketing,ce qui accélère votre accès à vos objectifs commerciaux.
+        avec les conseils les plus importants, les technologies les plus
+        efficaces, les orientations et les meilleures idées publicitaires
+        innovantes pour vous aider à exceller et à réussir vos projets. Nous
+        combinons des méthodes de marketing traditionnelles avec des méthodes
+        modernes pour fournir un service marketing intégré qui augmentera la
+        valeur de votre marque, Ce dernier qui va établire votre domination et
+        mettre en évidence votre présence dans tous les canaux marketing
+        digitale, ce qui accélérera votre accès à vos objectifs.
       </p>
     </Services>
   )
