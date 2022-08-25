@@ -29,12 +29,12 @@ const ServicesSection = () => {
               <img alt='icon' src={clock} />
               <h3>Rapide</h3>
             </div>
-            <p>Réalisation de vos rêves en periode courte.</p>
+            <p>Réalisation de vos projects dans un délais optimal</p>
           </Card>
           <Card>
             <div className='icon'>
               <img alt='icon' src={teamwork} />
-              <h3>Staff</h3>
+              <h3>Team</h3>
             </div>
             <p>Des experts à votre disposition.</p>
           </Card>
@@ -43,14 +43,14 @@ const ServicesSection = () => {
               <img alt='icon' src={diaphragm} />
               <h3>Valeur</h3>
             </div>
-            <p>Produit magnifiquement conçu</p>
+            <p>Mise en valeur de vos produits ou services</p>
           </Card>
           <Card>
             <div className='icon'>
               <img alt='icon' src={money} />
-              <h3>Abordable</h3>
+              <h3>Compétitif</h3>
             </div>
-            <p>Facturation compétitive.</p>
+            <p>Offres concurrentielles</p>
           </Card>
         </Cards>
       </Description>

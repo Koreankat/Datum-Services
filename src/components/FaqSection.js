@@ -46,10 +46,10 @@ const FaqSection = forwardRef((props, ref) => {
   return (
     <Faq ref={ref}>
       <h1>
-        CONTACTEZ <span>NOUS</span>
+        CONTACTEZ <span>-NOUS</span>
       </h1>
       <h2>
-        DEMANDER UN RAPPEL
+        DEMANDEZ UN RAPPEL
         <br /> DEVIS SANS ENGAGEMENT - CONSULTATION GRATUITE
       </h2>
       <div>
@@ -104,7 +104,6 @@ const FaqSection = forwardRef((props, ref) => {
       <NotificationContainer />
       <footer>
         <div className='cooter'>
-          <h2>Ou contactez nous sur le:</h2>
           <h2>
             <a
               href='tel:+212656290736'
@@ -117,6 +116,7 @@ const FaqSection = forwardRef((props, ref) => {
               +212 656290736
             </a>
           </h2>
+          <h2 style={{ fontSize: "20px" }}>a.jaafari@datumservices.ma</h2>
           <div style={{ marginTop: "10px", marginBottom: "10px" }}>
             Copyright © Datum Services . All Right Reserved
           </div>
@@ -188,6 +188,8 @@ const Faq = styled.div`
   }
   h1 {
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
     font-size: 50px;
   }
   @media (max-width: 550px) {

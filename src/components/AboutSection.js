@@ -17,22 +17,19 @@ const AboutSection = ({ resultRef }) => {
       <Description>
         <motion.div>
           <Hide>
-            <motion.h2 variants={titleAnim}>On agis pour</motion.h2>
-          </Hide>
-          <Hide>
             <motion.h2 variants={titleAnim}>
-              transformer <span>vos besoins</span> en action.
+              Transformez <span>vos besoins</span> en action
             </motion.h2>
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Contactez nous pour vous aider a développer et digitaliser votre
-          marque a travers nos solutions conçues pour améliorer votre entreprise
-          et inciter le consomateur à agir.
+          Contactez-nous pour vous aider à développer et digitaliser votre
+          marque à travers nos solutions conçues pour valoriser votre
+          entreprise.
         </motion.p>
 
         <motion.button variants={fade} onClick={onSubmit}>
-          Contactez nous
+          Contactez-nous
         </motion.button>
       </Description>
       <Image>

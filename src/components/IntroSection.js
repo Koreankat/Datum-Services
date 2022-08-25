@@ -25,25 +25,16 @@ const IntroSection = () => {
         </h2>
       </div>
       <p>
-        Datum Services agit en tant qu’agence de developement Informatique,
+        Datum Services agit en tant qu’agence de développement informatique,
         communication et de marketing numériques, dont l’activité principale est
-        l'intégration et préparation de vos projets grâce à nos services
-        intégrés de publicité, developement web, marketing digitale, graphic
-        design...tout en gérant votre business avec le plus grand
-        professionnalisme. De A à Z en commençant par l’étude du marché et de
-        produits concurrents, en concevant les logos et l’identité visuelle tout
-        en terminant par la création de plans marketing stratégiques. Nous
-        sommes à votre écoute, pour répondre à tous vos besoins, quel que soit
-        votre secteur d’activité. En étudiant attentivement les exigences de vos
-        projets et vos objectifs, nous vous accompagnons sur la voie du succès
-        avec les conseils les plus importants, les technologies les plus
-        efficaces, les orientations et les meilleures idées publicitaires
-        innovantes pour vous aider à exceller et à réussir vos projets. Nous
-        combinons des méthodes de marketing traditionnelles avec des méthodes
-        modernes pour fournir un service marketing intégré qui augmentera la
-        valeur de votre marque, Ce dernier qui va établire votre domination et
-        mettre en évidence votre présence dans tous les canaux marketing
-        digitale, ce qui accélérera votre accès à vos objectifs.
+        l'intégration et la préparation de vos projets grâce à nos services
+        publicité, développement web, marketing digitale, graphic design...
+        <br />
+        Nous combinons des méthodes de marketing traditionnelles et modernes
+        pour fournir un service marketing intégré qui augmentera la valeur de
+        votre marque.
+        <br />
+        Nous sommes a votre écoute, pour répondre à tous vos besoins.
       </p>
     </Services>
   )
@@ -62,7 +53,8 @@ const Services = styled(motion.div)`
     padding-bottom: 5rem;
   }
   p {
-    width: 90%;
+    text-align: center;
+    width: 92%;
     padding: 2rem;
     color: #f1f1f1;
     line-height: 1.6;

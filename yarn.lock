@@ -4906,7 +4906,7 @@
     "jest-message-util" "^26.6.2"
     "jest-regex-util" "^26.0.0"
 
-"express@^4.17.1":
+"express@^4.16.2", "express@^4.17.1":
   "integrity" "sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.17.1.tgz"
   "version" "4.17.1"
@@ -10206,6 +10206,13 @@
   "version" "5.0.1"
   dependencies:
     "randombytes" "^2.1.0"
+
+"serve-build@^0.1.0":
+  "integrity" "sha512-hLmlGGmqoELSSxw8dENqmFPy3dV/ILJI9AXiTWPjduvksC0U86w7yo19Irj14zX/RjNXVmao8FRDQ8n5Xp0dog=="
+  "resolved" "https://registry.npmjs.org/serve-build/-/serve-build-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "express" "^4.16.2"
 
 "serve-index@^1.9.1":
   "integrity" "sha1-03aNabHn2C5c4FD/9bRTvqEqkjk= sha512-pXHfKNP4qujrtteMrSBb0rc8HJ9Ms/GrXwcUtUtD5s4ewDJI8bT3Cz2zTVRMKtri49pLx2e0Ya8ziP5Ya2pZZw=="
