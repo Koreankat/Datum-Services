@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import { NavLink, useLocation } from "react-router-dom"
 import { motion } from "framer-motion"
-import logo from "../img/DS-Small-two.png"
+import logo from "../img/logov1.png"
 import "./styles.css"
 
 const Nav = () => {
