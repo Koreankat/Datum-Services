@@ -20,7 +20,7 @@ const FaqSection = forwardRef((props, ref) => {
     emailjs
       .sendForm(
         "service_k5douhi",
-        "template_xgoeijp",
+        "template_05iraz6",
         form.current,
         "4AFUO7Ua2XiLUj_hH"
       )
@@ -82,6 +82,15 @@ const FaqSection = forwardRef((props, ref) => {
             id='from_name'
             name='from_name'
             placeholder='VOTRE SOCIÉTÉ/ PROJECT/ ORGANISATION'
+            spellCheck='false'
+          ></input>
+          <br></br>
+          <input
+            type='text'
+            autoComplete='off'
+            id='from_num'
+            name='from_num'
+            placeholder='NUMERO DE TELEPHONE'
             spellCheck='false'
           ></input>
           <br></br>
