@@ -64,7 +64,7 @@ const ServicesSection = () => {
           <ul className='ul3'>
             <li>Branding</li>
             <li>Optimisation du moteur de recherche</li>
-            <li>Contenu marketing</li>
+            <li>Marketing de contenu</li>
             <li>Campagne réseaux sociaux</li>
             <li>Référencement SEO/SEA/SMO</li>
             <li>E-mailing</li>
