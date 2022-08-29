@@ -34,13 +34,13 @@ const ServicesSection = () => {
             <span>Graphic Design</span>
           </h1>
           <ul className='ul1'>
-            <li>Création de marque</li>
             <li>
               Logos, Design 3D,
               <br /> Conception illustrative...
             </li>
             <li>UI/UX design</li>
             <li>Illustration Digitale</li>
+            <li>Branding</li>
           </ul>
         </div>
         <div className='div2'>
@@ -48,11 +48,13 @@ const ServicesSection = () => {
             <span>Developpement Web</span>
           </h1>
           <ul className='ul2'>
-            <li>Site Webs</li>
-            <li>Application Mobile</li>
-            <li>Conseil Informatique</li>
-            <li>SEO</li>
-            <li>Web Hosting/Nom de Domaine</li>
+            <li>Conception site web</li>
+            <li>Conception Site e-commerce</li>
+            <li>Application web et mobile</li>
+            <li>Déploiement CRM / ERP</li>
+            <li>Chatbot</li>
+            <li>Hébergement et maintenance</li>
+            <li>Outils d'analyse orientés IA</li>
           </ul>
         </div>
         <div className='div3'>
@@ -60,9 +62,13 @@ const ServicesSection = () => {
             <span>Marketing Digital</span>
           </h1>
           <ul className='ul3'>
+            <li>Branding</li>
             <li>Optimisation du moteur de recherche</li>
-            <li>Marketing de contenu</li>
-            <li>Marketing de réseau sociaux</li>
+            <li>Contenu marketing</li>
+            <li>Campagne réseaux sociaux</li>
+            <li>Référencement SEO/SEA/SMO</li>
+            <li>E-mailing</li>
+            <li>Campagne de génération de leads</li>
           </ul>
         </div>
       </section>
@@ -92,7 +98,7 @@ const Services = styled(motion.div)`
     line-height: 1.8;
   }
   .ul3 {
-    line-height: 3;
+    line-height: 1.8;
   }
 
   div {
