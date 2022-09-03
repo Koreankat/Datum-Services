@@ -30,7 +30,7 @@ const PhilosophySection = () => {
         </p>
       </div>
 
-      <img src={philosophie} alt='philo'></img>
+      <img src={philosophie} alt='philosophy chart'></img>
     </Services>
   )
 }

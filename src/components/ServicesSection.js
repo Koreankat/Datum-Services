@@ -26,28 +26,28 @@ const ServicesSection = () => {
         <Cards>
           <Card>
             <div className='icon'>
-              <img alt='icon' src={clock} />
+              <img alt='clock icon' src={clock} />
               <h3>Rapide</h3>
             </div>
             <p>Réalisation de vos projects dans un délais optimal</p>
           </Card>
           <Card>
             <div className='icon'>
-              <img alt='icon' src={teamwork} />
+              <img alt='teamwork icon' src={teamwork} />
               <h3>Team</h3>
             </div>
             <p>Des experts à votre disposition.</p>
           </Card>
           <Card>
             <div className='icon'>
-              <img alt='icon' src={diaphragm} />
+              <img alt='diaphragm icon' src={diaphragm} />
               <h3>Valeur</h3>
             </div>
             <p>Mise en valeur de vos produits ou services</p>
           </Card>
           <Card>
             <div className='icon'>
-              <img alt='icon' src={money} />
+              <img alt='money icon' src={money} />
               <h3>Compétitif</h3>
             </div>
             <p>Offres concurrentielles</p>
@@ -55,7 +55,7 @@ const ServicesSection = () => {
         </Cards>
       </Description>
       <Image className='Image'>
-        <img alt='camera' src={home2} />
+        <img alt='Software development team' src={home2} />
       </Image>
     </Services>
   )

@@ -33,7 +33,7 @@ const AboutSection = ({ resultRef }) => {
         </motion.button>
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt='person with camera' />
+        <motion.img variants={photoAnim} src={home1} alt='Binary numbers' />
       </Image>
       <Wave />
     </About>
