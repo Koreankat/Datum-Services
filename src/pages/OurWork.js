@@ -39,7 +39,11 @@ const OurWork = () => {
         <motion.div variants={lineAnim} className='line'></motion.div>
         <Link to='/work/ordumonde'>
           <Hide>
-            <motion.img variants={photoAnim} src={OrDuMonde} alt='ordumonde' />
+            <motion.img
+              variants={photoAnim}
+              src={OrDuMonde}
+              alt='OrDuMonde homepage'
+            />
           </Hide>
         </Link>
       </Movie>
@@ -47,21 +51,21 @@ const OurWork = () => {
         <h2>Vortex Crypto Trading</h2>
         <div className='line'></div>
         <Link to='/work/the-racer'>
-          <img src={vortex} alt='vortex' />
+          <img src={vortex} alt='Vortex homepage' />
         </Link>
       </Movie>
       <Movie>
         <h2>Waced</h2>
         <div className='line'></div>
         <Link to='/work/waced'>
-          <img src={waced1} alt='waced' />
+          <img src={waced1} alt='Waced homepage' />
         </Link>
       </Movie>
       <Movie>
         <h2>Space Traveling</h2>
         <div className='line'></div>
         <Link to='/work/spacetraveling'>
-          <img src={spacetraveling} alt='spacetraveling' />
+          <img src={spacetraveling} alt='spacetraveling homepage' />
         </Link>
       </Movie>
     </Work>
