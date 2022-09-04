@@ -1,6 +1,6 @@
 import React from "react"
 import { motion } from "framer-motion"
-import home1 from "../img/textile.png"
+import home1 from "../img/textile.webp"
 import { About, Description, Hide, Image } from "../Style"
 import { titleAnim, fade, photoAnim } from "../animation"
 import { useEffect } from "react"

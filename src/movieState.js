@@ -1,12 +1,12 @@
 //Import Images
-import ordumonde from "./img/OrDuMonde.png"
-import spacetraveling from "./img/SpaceTraveling.png"
-import vortex from "./img/vortex.png"
-import ordumonde2 from "./img/OrDuMonde2.png"
-import spacetraveling2 from "./img/SpaceTraveling2.png"
-import vortex2 from "./img/vortex2.png"
-import waced1 from "./img/waced1.png"
-import waced2 from "./img/waced2.png"
+import ordumonde from "./img/OrDuMonde.webp"
+import spacetraveling from "./img/SpaceTraveling.webp"
+import vortex from "./img/vortex.webp"
+import ordumonde2 from "./img/OrDuMonde2.webp"
+import spacetraveling2 from "./img/SpaceTraveling2.webp"
+import vortex2 from "./img/vortex2.webp"
+import waced1 from "./img/waced1.webp"
+import waced2 from "./img/waced2.webp"
 
 export const MovieState = () => {
   return [

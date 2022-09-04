@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
-import bg from "../img/bg-p1.png"
-import philosophie from "../img/img.png"
+import bg from "../img/bg-p1.webp"
+import philosophie from "../img/img.webp"
 
 import { Intro, Image } from "../Style"
 import { scrollReveal } from "../animation"

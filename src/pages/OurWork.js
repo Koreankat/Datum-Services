@@ -2,10 +2,10 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "react-router-dom"
 //Images
-import OrDuMonde from "../img/OrDuMonde.png"
-import waced1 from "../img/waced1.png"
-import vortex from "../img/vortex.png"
-import spacetraveling from "../img/SpaceTraveling.png"
+import OrDuMonde from "../img/OrDuMonde.webp"
+import waced1 from "../img/waced1.webp"
+import vortex from "../img/vortex.webp"
+import spacetraveling from "../img/SpaceTraveling.webp"
 // animations
 import { motion } from "framer-motion"
 import {
