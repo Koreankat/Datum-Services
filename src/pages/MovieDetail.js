@@ -30,7 +30,8 @@ const MovieDetail = () => {
         >
           <HeadLine>
             <h2>{movie.title}</h2>
-            <img src={movie.mainImg} alt='movie' />
+            <img src={movie.mainImg} alt='movie' className='desk' />
+            <img src={movie.mainImgMob} alt='movie' className='mob' />
           </HeadLine>
           <Awards>
             {movie.awards.map((award) => (
@@ -67,6 +68,20 @@ const HeadLine = styled.div`
     width: 100%;
     height: 70vh;
     object-fit: cover;
+  }
+  .mob {
+    display: block;
+  }
+  .desk {
+    display: none;
+  }
+  @media (min-width: 550px) {
+    .mob {
+      display: none;
+    }
+    .desk {
+      display: block;
+    }
   }
 `
 const Awards = styled.div`

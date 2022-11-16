@@ -1,18 +1,25 @@
 //Import Images
 import ordumonde from "./img/OrDuMonde.webp"
-import spacetraveling from "./img/SpaceTraveling.webp"
-import vortex from "./img/vortex.webp"
 import ordumonde2 from "./img/OrDuMonde2.webp"
+import ordumondemob from "./img/OrDuMondeMobile.png"
+import spacetraveling from "./img/SpaceTraveling.webp"
 import spacetraveling2 from "./img/SpaceTraveling2.webp"
+import spacetravelingmob from "./img/SpaceTravelingMob.png"
+import vortex from "./img/vortex.webp"
 import vortex2 from "./img/vortex2.webp"
+import vortexmob from "./img/vortex1mob.png"
 import waced1 from "./img/waced1.webp"
 import waced2 from "./img/waced2.webp"
-
+import waced1mob from "./img/waced1Mobile.png"
+import richpost1 from "./img/richpost.png"
+import richpost2 from "./img/richpost2.png"
+import richpostmob from "./img/richpostmob.png"
 export const MovieState = () => {
   return [
     {
       title: "OrDuMOnde",
       mainImg: ordumonde,
+      mainImgMob: ordumondemob,
       secondaryImg: ordumonde2,
       url: "/work/ordumonde",
       awards: [
@@ -36,6 +43,7 @@ export const MovieState = () => {
     {
       title: "Waced",
       mainImg: waced1,
+      mainImgMob: waced1mob,
       secondaryImg: waced2,
       url: "/work/waced",
       awards: [
@@ -49,6 +57,7 @@ export const MovieState = () => {
     {
       title: "Space Traveling",
       mainImg: spacetraveling,
+      mainImgMob: spacetravelingmob,
       url: "/work/spacetraveling",
       secondaryImg: spacetraveling2,
       awards: [
@@ -62,13 +71,28 @@ export const MovieState = () => {
     {
       title: "Vortex Crypto Trading",
       mainImg: vortex,
-      url: "/work/the-racer",
+      mainImgMob: vortexmob,
+      url: "/work/vortex",
       secondaryImg: vortex2,
       awards: [
         {
           title: "About",
           description:
             "“Vortex est une platform de crypto trading crée pour simplifier le métier de trading.”",
+        },
+      ],
+    },
+    {
+      title: "The Rich Post",
+      mainImg: richpost1,
+      mainImgMob: richpostmob,
+      url: "/work/richpost",
+      secondaryImg: richpost2,
+      awards: [
+        {
+          title: "About",
+          description:
+            "“The Rich Post est un site moderne e-commerce de clothing”",
         },
       ],
     },

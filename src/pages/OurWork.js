@@ -3,9 +3,15 @@ import styled from "styled-components"
 import { Link } from "react-router-dom"
 //Images
 import OrDuMonde from "../img/OrDuMonde.webp"
+import OrDuMondeMob from "../img/OrDuMondeMobile.png"
 import waced1 from "../img/waced1.webp"
+import waced1Mob from "../img/waced1Mobile.png"
 import vortex from "../img/vortex.webp"
+import vortexMob from "../img/vortex1mob.png"
 import spacetraveling from "../img/SpaceTraveling.webp"
+import spacetravelingMob from "../img/SpaceTravelingMob.png"
+import richpost from "../img/richpost.png"
+import richpostmob from "../img/richpostmob.png"
 // animations
 import { motion } from "framer-motion"
 import {
@@ -43,6 +49,13 @@ const OurWork = () => {
               variants={photoAnim}
               src={OrDuMonde}
               alt='OrDuMonde homepage'
+              className='desk'
+            />
+            <motion.img
+              variants={photoAnim}
+              src={OrDuMondeMob}
+              alt='OrDuMonde homepage mobile'
+              className='mob'
             />
           </Hide>
         </Link>
@@ -51,21 +64,44 @@ const OurWork = () => {
         <h2>Vortex Crypto Trading</h2>
         <div className='line'></div>
         <Link to='/work/the-racer'>
-          <img src={vortex} alt='Vortex homepage' />
+          <img src={vortex} alt='Vortex homepage' className='desk' />
+          <img src={vortexMob} alt='Vortex homepage mobile' className='mob' />
         </Link>
       </Movie>
       <Movie>
         <h2>Waced</h2>
         <div className='line'></div>
         <Link to='/work/waced'>
-          <img src={waced1} alt='Waced homepage' />
+          <img src={waced1} alt='Waced homepage' className='desk' />
+          <img src={waced1Mob} alt='Waced homepage mobile' className='mob' />
         </Link>
       </Movie>
       <Movie>
         <h2>Space Traveling</h2>
         <div className='line'></div>
         <Link to='/work/spacetraveling'>
-          <img src={spacetraveling} alt='spacetraveling homepage' />
+          <img
+            src={spacetraveling}
+            alt='spacetraveling homepage'
+            className='desk'
+          />
+          <img
+            src={spacetravelingMob}
+            alt='spacetraveling homepage mobile'
+            className='mob'
+          />
+        </Link>
+      </Movie>
+      <Movie>
+        <h2>The Rich Post</h2>
+        <div className='line'></div>
+        <Link to='/work/spacetraveling'>
+          <img src={richpost} alt='richpost homepage' className='desk' />
+          <img
+            src={richpostmob}
+            alt='richpost homepage mobile'
+            className='mob'
+          />
         </Link>
       </Movie>
     </Work>
@@ -82,6 +118,20 @@ const Work = styled(motion.div)`
 
   h2 {
     padding: 1rem 0rem;
+  }
+  .mob {
+    display: block;
+  }
+  .desk {
+    display: none;
+  }
+  @media (min-width: 550px) {
+    .mob {
+      display: none;
+    }
+    .desk {
+      display: block;
+    }
   }
 `
 const Movie = styled.div`
