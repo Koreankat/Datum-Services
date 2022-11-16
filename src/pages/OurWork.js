@@ -63,7 +63,7 @@ const OurWork = () => {
       <Movie>
         <h2>Vortex Crypto Trading</h2>
         <div className='line'></div>
-        <Link to='/work/the-racer'>
+        <Link to='/work/vortex'>
           <img src={vortex} alt='Vortex homepage' className='desk' />
           <img src={vortexMob} alt='Vortex homepage mobile' className='mob' />
         </Link>
@@ -95,7 +95,7 @@ const OurWork = () => {
       <Movie>
         <h2>The Rich Post</h2>
         <div className='line'></div>
-        <Link to='/work/spacetraveling'>
+        <Link to='/work/richpost'>
           <img src={richpost} alt='richpost homepage' className='desk' />
           <img
             src={richpostmob}

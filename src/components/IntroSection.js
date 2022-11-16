@@ -1,11 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
-import logo from "../img/logo.png"
 import bg from "../img/bg-p1.webp"
-import { Image } from "../Style"
-
-import { Intro } from "../Style"
 import { scrollReveal } from "../animation"
 import { useScroll } from "../hooks/useScroll"
 

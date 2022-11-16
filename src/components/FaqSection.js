@@ -1,14 +1,9 @@
 import React, { useRef } from "react"
 import emailjs from "emailjs-com"
 import styled from "styled-components"
-import { BsInstagram } from "react-icons/bs"
-import { AnimateSharedLayout } from "framer-motion"
 import AOS from "aos"
 import { NotificationContainer, NotificationManager } from "react-notifications"
 import "react-notifications/lib/notifications.css"
-import { About } from "../Style"
-import { useScroll } from "../hooks/useScroll"
-import { scrollReveal } from "../animation"
 import { forwardRef } from "react"
 AOS.init()
 const FaqSection = forwardRef((props, ref) => {
