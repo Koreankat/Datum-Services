@@ -92,18 +92,7 @@ const OurWork = () => {
           />
         </Link>
       </Movie>
-      <Movie>
-        <h2>The Rich Post</h2>
-        <div className='line'></div>
-        <Link to='/work/richpost'>
-          <img src={richpost} alt='richpost homepage' className='desk' />
-          <img
-            src={richpostmob}
-            alt='richpost homepage mobile'
-            className='mob'
-          />
-        </Link>
-      </Movie>
+      
     </Work>
   )
 }
