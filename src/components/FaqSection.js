@@ -5,6 +5,8 @@ import AOS from "aos"
 import { NotificationContainer, NotificationManager } from "react-notifications"
 import "react-notifications/lib/notifications.css"
 import { forwardRef } from "react"
+import { BsInstagram } from "react-icons/bs"
+import { AiFillTwitterCircle } from "react-icons/ai"
 AOS.init()
 const FaqSection = forwardRef((props, ref) => {
   const form = useRef()
@@ -107,7 +109,10 @@ const FaqSection = forwardRef((props, ref) => {
       </div>
       <NotificationContainer />
       <footer>
-        <div className='cooter'>
+        <div className='footer'>
+          <h1 style={{ fontSize: "30px", marginBottom: "8px" }}>
+            OU CONTACTEZ <span>&nbsp;NOUS&nbsp;</span> SUR :
+          </h1>
           <h2>
             <a
               href='tel:+212656290736'
@@ -115,11 +120,26 @@ const FaqSection = forwardRef((props, ref) => {
                 fontSize: "24px",
                 color: "white",
                 textDecoration: "none",
+                marginBottom: "5px",
               }}
             >
-              +212 656290736
+              06 56 29 07 36
             </a>
           </h2>
+          <a
+            href='https://www.instagram.com/datumservicesma/'
+            style={{ marginBottom: "5px" }}
+          >
+            <BsInstagram style={{ marginRight: "8px" }} />
+            <h4>instagram</h4>
+          </a>
+          <a
+            href='https://twitter.com/datumservices'
+            style={{ marginBottom: "5px" }}
+          >
+            <AiFillTwitterCircle style={{ marginRight: "8px" }} />
+            <h4>twitter</h4>
+          </a>
           <h2 style={{ fontSize: "20px" }}>a.jaafari@datumservices.ma</h2>
           <div style={{ marginTop: "10px", marginBottom: "10px" }}>
             Copyright © Datum Services . All Right Reserved
@@ -132,6 +152,14 @@ const FaqSection = forwardRef((props, ref) => {
 
 // Styles
 const Faq = styled.div`
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    font-size: 25px;
+  }
   footer {
     padding-top: 20px;
     background-color: #282828;
@@ -183,6 +211,9 @@ const Faq = styled.div`
     max-width: 100%;
     resize: none;
     margin-bottom: 20px;
+  }
+  h4 {
+    font-weight: 400;
   }
   div {
     display: flex;
