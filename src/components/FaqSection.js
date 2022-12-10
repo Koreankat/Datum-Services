@@ -110,7 +110,7 @@ const FaqSection = forwardRef((props, ref) => {
       <NotificationContainer />
       <footer>
         <div className='footer'>
-          <h1 style={{ fontSize: "30px", marginBottom: "8px" }}>
+          <h1 className='h1'>
             OU CONTACTEZ <span>&nbsp;NOUS&nbsp;</span> SUR :
           </h1>
           <h2>
@@ -159,6 +159,10 @@ const Faq = styled.div`
 
     color: white;
     font-size: 25px;
+  }
+  .h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
   footer {
     padding-top: 20px;
@@ -228,6 +232,9 @@ const Faq = styled.div`
     font-size: 50px;
   }
   @media (max-width: 550px) {
+    .h1 {
+      font-size: 20px;
+    }
     h1 {
       font-size: 30px;
       margin-bottom: 10px;
