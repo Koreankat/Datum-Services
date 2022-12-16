@@ -6,6 +6,7 @@ import { NotificationContainer, NotificationManager } from "react-notifications"
 import "react-notifications/lib/notifications.css"
 import { forwardRef } from "react"
 import { BsInstagram } from "react-icons/bs"
+import { AiOutlineLinkedin } from "react-icons/ai"
 import { AiFillTwitterCircle } from "react-icons/ai"
 AOS.init()
 const FaqSection = forwardRef((props, ref) => {
@@ -133,6 +134,16 @@ const FaqSection = forwardRef((props, ref) => {
             <BsInstagram style={{ marginRight: "8px" }} />
             <h4>instagram</h4>
           </a>
+          <a
+            href='https://www.linkedin.com/company/datum-services-ma/'
+            style={{ marginBottom: "5px" }}
+          >
+            <AiOutlineLinkedin
+              style={{ marginRight: "8px", fontSize: "30px" }}
+            />
+            <h4>LinkedIn</h4>
+          </a>
+
           <a
             href='https://twitter.com/datumservices'
             style={{ marginBottom: "5px" }}
